@@ -2,7 +2,8 @@
  
 ## Manage massive amounts of data, fast, without losing sleep
 
-<img src="http://awesome-cassandra.github.io/pics/cassandra-logo.png" height="120px" />
+<img src="https://raw.githubusercontent.com/awesome-cassandra/awesome-cassandra.github.io/master/pics/logo-cassandra.png" 
+     height="120px" />
 
 The Apache Cassandra database is the right choice when you need scalability and high availability without compromising performance. Linear scalability and proven fault-tolerance on commodity hardware or cloud infrastructure make it the perfect platform for mission-critical data. Cassandra's support for replicating across multiple datacenters is best-in-class, providing lower latency for your users and the peace of mind of knowing that you can survive regional outages.
 
