@@ -4,15 +4,16 @@
 
 <img src="http://awesome-cassandra.github.io/pics/cassandra-logo.png" height="120px" />
 
-
 The Apache Cassandra database is the right choice when you need scalability and high availability without compromising performance. Linear scalability and proven fault-tolerance on commodity hardware or cloud infrastructure make it the perfect platform for mission-critical data. Cassandra's support for replicating across multiple datacenters is best-in-class, providing lower latency for your users and the peace of mind of knowing that you can survive regional outages.
 
+This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packages and resources. This list has been initiated and maintained by Rahul Singh of [Anant](http://anant.us). 
 
-This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packages and resources. Maintained by Rahul Singh of [Anant](http://anant.us). Feel free contact me if you'd like to collaborate on this and other awesome lists. [Awesome Cassandra](https://github.com/Anant/awesome-cassandra) , [Awesome Solr](https://github.com/Anant/awesome-solr), [Awesome Lucene](https://github.com/Anant/awesome-lucene). This powers the *Resources* section of [Cassandra.Link](https://cassandra.link), a rich collection of blog feeds, and curated links as a searchable knowledge base. 
+This powers the *Resources* section of [Cassandra.Link](https://cassandra.link), a rich collection of blog feeds, and curated links as a searchable knowledge base. 
 
 ## Contents
 
 - [General](#general) 
+
 <!-- TODO: list out concept subject titles here and link -->
 - [Packages](#packages)
   - [Libraries](#libraries)  Programming Language Specific Libs for Cassandra.
