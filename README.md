@@ -1,6 +1,6 @@
 # Awesome Cassandra [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
  
-## Manage massive amounts of data, fast, without losing sleep
+**Manage massive amounts of data, fast, without losing sleep**
 
 <img src="https://raw.githubusercontent.com/awesome-cassandra/awesome-cassandra.github.io/master/pics/logo-cassandra.png" 
      height="120px" />
@@ -11,7 +11,7 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 
 This powers the *Resources* section of [Cassandra.Link](https://cassandra.link), a rich collection of blog feeds, and curated links as a searchable knowledge base. 
 
-## Contents
+## Content
 
 - [General](#general) 
 
