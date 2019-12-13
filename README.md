@@ -11,51 +11,32 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 
 This powers the *Resources* section of [Cassandra.Link](https://cassandra.link), a rich collection of blog feeds, and curated links as a searchable knowledge base. 
 
-## Content
 
-- [General](#general) 
+## I - Core
 
-- [Packages](#packages)
-  - [Libraries](#libraries)  Programming Language Specific Libs for Cassandra.
-  - [Tools](#tools) Applications / Tools that work with Cassandra.
-  - [Projects](#projects) Other projects that use Cassandra.
-  - [Queues / Schedulers](#queues--schedulers) 
-  - [Logging](#logging)
-  - [Open Source Applications](#open-source-applications)
-  
-- [Resources](#resources) 
-  - [Documentation](#documentation) Official / unofficial documentation. 
-  - [Books](#books) Popular books about Cassandra.
-  - [Courses](#courses) Step by step tutorials on Cassandra.
-  - [Communities](#communities) Sites ( not blogs ) on Cassandra.
-  - [Blogs](#blogs) from Cassandra experts.
-  - [Videos](#videos) Videos on Cassandra.
-  - [Slides](#slides) Slides on Cassandra / related technologies.
-
-## General
-
-### Cassandra 
+### 1.1 Official 
 - [Apache Cassandra](http://cassandra.apache.org/) - Manage massive amounts of data, fast, without losing sleep.
 
-### Cassandra History
+### 1.2 History
 - [IDG: 10 Years of Apache Cassandra](https://www.idgconnect.com/abstract/30973/apache-cassandra)
 - [ZDNet: Apache Cassandra Turns 10](https://www.zdnet.com/article/apache-cassandra-turns-10/)
 
-### Cassandra Use Cases 
+### 1.3 Use Cases 
 - [Datastax Academy: Brief Introduction to Apache Cassandra](https://academy.datastax.com/resources/brief-introduction-apache-cassandra)
 - [Kaa application based on Raspberry Pi and DHT11 sensor](https://github.com/pyroalf/kaa-cassandra-sample) - Cassandra IoT usecase with Raspberry Pi and a DHT11 Sensor.
 - [Simple Node.js Express 4 Cassandra Application](https://github.com/bradtraversy/mysubscribers) - MySubscribers is a very simple application (Start of an application) which allows you to create, read, update and delete users/subscribers. This application was only created to aid the YouTube course.
 - [An Odyssey of Cassandra](http://hadoopmag.com/an-odyssey-of-cassandra/) - This is an old article republished but talks about transitioning from SQL to NoSQL with Cassandra.
 
-### Cassandra Distributions
-- [Datastax Enterrpise](https://www.datastax.com/) - Most widely used commercial distribution of Apache Cassandra, integrated with Apache Spark (for SparkSQL, analytics), Apache Solr (for secondary index), Apache TinkerPop based Graph stored in Cassandra, and OpsCenter.
+### 1.4 Distributions
+- [Datastax Enterprise](https://www.datastax.com/) - Most widely used commercial distribution of Apache Cassandra, integrated with Apache Spark (for SparkSQL, analytics), Apache Solr (for secondary index), Apache TinkerPop based Graph stored in Cassandra, and OpsCenter.
 - [DDACS](https://www.datastax.com/products/datastax-distribution-of-apache-cassandra) - Datastax Distribution of Apache Cassandra, a production ready distribution with a bulk loader supported by Datastax. 
 - [Elassandra](http://www.elassandra.io/) - Elassandra = Elasticsearch as a Cassandra secondary index.
 - [ScyllaDB](https://github.com/scylladb/scylla) - NoSQL data store using the seastar framework, compatible with Apache Cassandra.
 - [YugaByte Database](https://github.com/YugaByte/yugabyte-db) - YugaByteDB is a transactional, high-performance database for building distributed cloud services. It supports Cassandra-compatible and Redis-compatible APIs, with PostgreSQL in Beta.
 - [Microsoft Azure Cosmos DB: Apache Cassandra API](https://docs.microsoft.com/en-us/azure/cosmos-db/cassandra-introduction) - Azure Cosmos DB provides the Cassandra API (preview) for applications that are written for Apache Cassandra that need premium capabilities.
 
-### Using Cassandra
+
+### 1.5 Using Cassandra
 - [Installing the Cassandra / Spark OSS Stack](https://tobert.github.io/post/2014-07-15-installing-cassandra-spark-stack.html)
 - [Install Cassandra and Spark](http://tobert.github.io/post/2014-07-15-installing-cassandra-spark-stack.html) - Quick user guide for integration with Cassandra and Spark.
 - [The Cassandra Query Language](http://cassandra.apache.org/doc/latest/cql/)
@@ -71,12 +52,7 @@ This powers the *Resources* section of [Cassandra.Link](https://cassandra.link),
 - [Cloud DevOps with Cassandra](http://cloudurable.com/blog/aws-ansible-packer-ssh-for-devops/index.html) - Using Packer, Ansible/SSH and AWS command line tools to create and DBA manage EC2 Cassandra instances in AWS.
 - [How to install Cassandra 2 on CentOS 7 / RHEL 7](https://sharadchhetri.com/2015/04/25/how-to-install-cassandra-2-on-centos-7-rhel-7/) - A guide on hwo to install Cassandra on the popular linux distributions RedHat and CentOS.
 
-<!-- - TODO:: sql v. cql-->
-<!-- - TODO:: query driven methodology -->
-<!-- - TODO:: schema designs / examples-->
-<!-- - TODO:: data modeling problems -->
-
-### Cassandra from Relational
+### 1.6 Cassandra from Relational
 - [RDBMS to NoSQL](http://www.datastax.com/relational-database-to-nosql) - Your roadmap to understanding whether NoSQL is right for you.
 - [MySQL to C*](http://planetcassandra.org/mysql-to-cassandra-migration/) - MySQL to Cassandra migration guide.
 - [Real-Time Replication from MySQL to Cassandra](https://mcbguru.blog/2014/02/27/real-time-replication-from-mysql-to-cassandra/)
@@ -119,7 +95,7 @@ This powers the *Resources* section of [Cassandra.Link](https://cassandra.link),
 <!-- - TODO: - System Keyspaces -->
 
 
-### Cassandra Architecture
+### 1.7 Architecture
 - [The Gossip Protocol - Inside Apache Cassandra.](https://www.linkedin.com/pulse/gossip-protocol-inside-apache-cassandra-soham-saha) - Good visual explanation of how Cassandra keeps consistent. 
 - [Introduction To The Apache Cassandra 3.x Storage Engine](http://thelastpickle.com/blog/2016/03/04/introductiont-to-the-apache-cassandra-3-storage-engine.html) - The 3.x storage engine makes it easier for Cassandra to get bytes off disk.
 - [Dropping columns in Apache Cassandra 3.0](http://thelastpickle.com/blog/2016/02/18/dropping-columns.html)
