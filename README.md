@@ -15,7 +15,6 @@ This powers the *Resources* section of [Cassandra.Link](https://cassandra.link),
 
 - [General](#general) 
 
-<!-- TODO: list out concept subject titles here and link -->
 - [Packages](#packages)
   - [Libraries](#libraries)  Programming Language Specific Libs for Cassandra.
   - [Tools](#tools) Applications / Tools that work with Cassandra.
@@ -57,15 +56,6 @@ This powers the *Resources* section of [Cassandra.Link](https://cassandra.link),
 - [Microsoft Azure Cosmos DB: Apache Cassandra API](https://docs.microsoft.com/en-us/azure/cosmos-db/cassandra-introduction) - Azure Cosmos DB provides the Cassandra API (preview) for applications that are written for Apache Cassandra that need premium capabilities.
 
 ### Using Cassandra
-
-<!-- - TODO:: cassandra installation tutorials in local, docker, cloud (do, aws, azure, gcp)) -->
-<!-- - TODO:: compiling cassandra -->
-<!-- - TODO:: running cassandra -->
-<!-- - TODO:: using cql -->
-<!-- - TODO:: using zeppelin with cassandra -->
-<!-- - TODO:: getting data in / out of cassandra -->
-<!-- - TODO:: using spark with cassandra -->
-
 - [Installing the Cassandra / Spark OSS Stack](https://tobert.github.io/post/2014-07-15-installing-cassandra-spark-stack.html)
 - [Install Cassandra and Spark](http://tobert.github.io/post/2014-07-15-installing-cassandra-spark-stack.html) - Quick user guide for integration with Cassandra and Spark.
 - [The Cassandra Query Language](http://cassandra.apache.org/doc/latest/cql/)
