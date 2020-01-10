@@ -8,6 +8,13 @@ body {
   vertical-align: text-bottom;
 }
 
+a.menu1:hover
+{
+   text-decoration:none;
+   color  		  :#0000AA;
+   font-weight	  :bold;
+}
+
 /*
  * Sidebar
  */

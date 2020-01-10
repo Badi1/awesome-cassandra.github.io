@@ -16,7 +16,8 @@
 
   <body>
     <nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0">
-      <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">The Cassandra Source</a>
+      <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">
+        <img src="pics/awesome.svg" style="height:30px"/> Awesome Cassandra</a>
       <ul class="navbar-nav px-3">
         <li>
           <a class="nav-link" href="#">Home</a>
@@ -31,29 +32,29 @@
             
             <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted" 
                 style="border-bottom:1px solid #0000AA;padding-bottom:5px">
-               <span style="color:#0000AA"><span data-feather="home"></span> &nbsp;REFERENCES</span>
+               <span style="color:#0000AA"><span data-feather="home" ></span> &nbsp;REFERENCES</span>
             </h6>
             <ul class="nav flex-column">
               <li class="nav-item">
-                <a class="nav-link" href="index.html">
+                <a class="nav-link" href="index.html" style="font-weight:bold;color:#000088">
                   <span data-feather="file-text"></span>
                   Documentation
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="references-blogs.html">
+                <a class="nav-link  menu1" href="references-blogs.html">
                   <span data-feather="rss"></span>
                   Technical Blogs
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="references-tools.html">
+                <a class="nav-link  menu1" href="references-tools.html">
                   <span data-feather="tool"></span>
                   Tools
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="references-codes.html">
+                <a class="nav-link menu1" href="references-codes.html">
                   <span data-feather="code"></span>
                   Sample Codes
                 </a>
@@ -144,7 +145,7 @@
 		
         <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
           <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
-            <h1 class="h2">Reference Documentations</h1>
+            <h1 class="h2"><span data-feather="file-text" style="height:40px"></span> References  &gt; Documentation</h1>
             <!--
             <div class="btn-toolbar mb-2 mb-md-0">
               <div class="btn-group mr-2">
@@ -164,9 +165,10 @@
           <div class="row">
             
             <div class="col-md-4" >
-              <a href="https://cassandra.apache.org">
+              <a href="https://cassandra.apache.org" target="_blank">
               <div class="card mb-4 box-shadow">
-                <img class="card-img-top" src="pics/ref-doc-homecassandra.png" style="height:200px;width:225">
+                <img class="card-img-top" 
+                     src="pics/ref-doc-homecassandra.png" style="height:200px;width:225">
                 <div class="card-body" style="background-color:#F8F8F8">
                   <p class="card-text">
                     <b style="color:black">Apache Cassandra Home</b>
@@ -181,7 +183,7 @@
             
             
             <div class="col-md-4" >
-              <a href="https://cassandra.apache.org/doc/latest/">
+              <a href="https://cassandra.apache.org/doc/latest/" target="_blank">
               <div class="card mb-4 box-shadow">
                 <img class="card-img-top" src="pics/ref-doc-cassandra.png" style="height:200px;width:225">
                 <div class="card-body" style="background-color:#F8F8F8">
@@ -197,7 +199,7 @@
             </div>
            
            <div class="col-md-4" >
-            <a href="https://cwiki.apache.org/confluence/display/CASSANDRA">
+            <a href="https://cwiki.apache.org/confluence/display/CASSANDRA" target="_blank">
               <div class="card mb-4 box-shadow">
                 <img class="card-img-top" src="pics/ref-doc-wiki-apache.png" style="height:200px;width:225">
                 <div class="card-body" style="background-color:#F8F8F8">
@@ -213,7 +215,7 @@
             </div>
             
             <div class="col-md-4" >
-            <a href="https://docs.datastax.com/en/landing_page/doc/landing_page/cassandra.html">
+            <a href="https://docs.datastax.com/en/landing_page/doc/landing_page/cassandra.html" target="_blank">
               <div class="card mb-4 box-shadow">
                 <img class="card-img-top" src="pics/ref-doc-datastax-cassandra.png" style="height:200px;width:225">
                 <div class="card-body" style="background-color:#F8F8F8">
@@ -229,7 +231,7 @@
             </div>
             
             <div class="col-md-4" >
-            <a href="https://en.wikipedia.org/wiki/Apache_Cassandra">
+            <a href="https://en.wikipedia.org/wiki/Apache_Cassandra" target="_blank">
               <div class="card mb-4 box-shadow">
                 <img class="card-img-top" src="pics/ref-doc-wikipedia.png" style="height:200px;width:225">
                 <div class="card-body" style="background-color:#F8F8F8">
@@ -245,7 +247,7 @@
             </div>
             
             <div class="col-md-4" >
-            <a href="https://db-engines.com/en/system/Cassandra">
+            <a href="https://db-engines.com/en/system/Cassandra" target="_blank">
               <div class="card mb-4 box-shadow">
                 <img class="card-img-top" src="pics/ref-doc-dbengines.png" style="height:200px;width:225">
                 <div class="card-body" style="background-color:#F8F8F8">
@@ -260,22 +262,13 @@
               </a>
             </div>
             
-            
           </div>
-        </div>
-      
-      
+        </div>s
           
         </main>
       </div>
     </div>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-    <script src="assets/js/vendor/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 
     <!-- Icons -->
