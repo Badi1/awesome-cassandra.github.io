@@ -164,7 +164,9 @@
 		
         <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
           <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
-            <h1 class="h2">Curated BlogPosts - Design</h1>
+            <h1 class="h2">
+            <span data-feather="database" style="height:40px"></span>
+            Design and Data Modelling</h1>
             <!--
             <div class="btn-toolbar mb-2 mb-md-0">
               <div class="btn-group mr-2">
@@ -182,29 +184,130 @@
         <div class="container" style="margin:0px;">
 
           <div class="row">
-            
-            <div class="col-md-4" >
-              <a href="https://www.datastax.com/products/compare/relational-database-vs-nosql">
-              <div class="card mb-4 box-shadow">
-                <img class="card-img-top" src="pics/articles/article-rdbms-vs-nosql.png" style="height:200px;width:225">
+            <div class="col-md-12" >
+              <div class="card mb-2 box-shadow">
+                <img class="card-img-top" 
+                     src="https://d2h0cx97tjks2p.cloudfront.net/blogs/wp-content/uploads/sites/2/2018/05/Cassandra-vs-RDBMS-01.jpg" 
+                	 style="height:200px;width:500px">
                 <div class="card-body" style="background-color:#F8F8F8">
                   <p class="card-text">
-                    <b style="color:black">Relational vs NoSQL Databases</b>
-                   <p style="text-align:justify">Is NoSQL right for you? Your data platform should deliver continuous availability and provide real-time contextual data at scale — it’s the difference between today’s successful modern applications and those that fail. The demands of modernization have led to the rise of NoSQL as the most viable database option for highly available and distributed modern applications.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <small class="text-muted">https://www.datastax.com/products/co...</small>
-                  </div>
+                    <b style="color:black">From Relation Databases to NoSQL Apache Cassandra</b>
+                   <p style="text-align:justify">
+                   	Is NoSQL right for you? Your data platform should deliver continuous availability and provide 
+                   	real-time contextual data at scale — it’s the difference between today’s successful 
+                   	modern applications and those that fail. The demands of modernization have led to the rise 
+                   	of NoSQL as the most viable database option for highly available and distributed modern 
+                   	applications.
+     				<ul>
+     				<li>
+     				   <a href="https://www.datastax.com/products/compare/relational-database-vs-nosql" >Relational Databases VS NoSQL (DataStax Team, DataStax - 2020)</a> Your roadmap to understanding whether NoSQL is right for you.  
+     				   Modernize your applications with a future-proof data layer—take the leap with DataStax and trade up. The crossover from relational to NoSQL is not as hard as you think.
+     				 <p/>
+     				 <li>
+     				   <a href="https://data-flair.training/blogs/cassandra-vs-rdbms/" >
+     				   	Cassandra vs RDMBS (Dataflair Team, DataFlair - 2018)
+     				   </a>A comparison of features and philosophy from Data Flair
+     				   <p/>
+     				 <li>
+     				   <a href="https://academy.datastax.com/planet-cassandra//mysql-to-cassandra-migration" >
+     				   	MySQL to Cassandra Migrations (Michael Kjellman, Apple - 2017)
+     				   </a>
+     				   For 15+ years, Oracle’s MySQL has been a de facto infrastructure piece in web applications, enjoying wide adoption. This is for good reason: MySQL provides a solid relational database that enables companies to build systems that perform well in many use cases. Yet, even its strongest supporters admit that it is not architected to tackle the new wave of big data applications. Modern businesses that need to manage big data use cases are turning to Apache Cassandra to replace MySQL.
+     				  <p/>
+     				  
+     				   <li>
+     				   <a href="https://www.javatpoint.com/rdbms-vs-cassandra" >
+     				   	Cassandra vs RDMBS (Unknown)
+     				   </a>
+     				   A comparison of features in a synthetic table by Java T Point.
+     				</ul>
+                   </p>
                 </div>
               </div>
-              </a>
             </div>
-            
-            
-            
+            </div>
+            <p/><br/>
+            <div class="row">
+            <div class="col-md-12" >
+              <div class="card mb-2 box-shadow">
+                <img class="card-img-top" src="pics/articles/c-datamodel.png" style="height:200px;width:500px">
+                <div class="card-body" style="background-color:#F8F8F8">
+                  <p class="card-text">
+                    <b style="color:black">Cassandra Data Modelling</b>
+                   <p style="text-align:justify">Workflow and process to implement a migration from RDBMS
+                    to Cassandra DB.
+                    <ul>
+     				<li>
+     				   <a href="https://cassandra.apache.org/doc/latest/data_modeling/">Official Cassandra Documentation (Jeffrey Carpenter, DataStax, 2020)</a> 
+     				   Extracted from Jeffrey Carpenter's book and gave to the apache community this a methology to define your
+     				   data models. 
+     				 <p/>
+     				 <li>
+     				   <a href="https://medium.com/code-zen/cassandra-schemas-for-beginners-like-me-9714cee9236a">
+     				   Cassandra Schemas for beginners like me (Joe Chasinga - 2015)</a>
+     				   Quick introduction to concepts of Cassandra schema and objects
+     				 <p/>
+            		<li>
+     				   <a href="https://www.datastax.com/blog/2015/02/basic-rules-cassandra-data-modeling">
+     				   Basic Rules of Data Modelling by DataStax  (Tyler Hobbs, DataStax - 2015)</a>
+     				<p/>
+           			<li>
+     				   <a href="https://charmygarg.wordpress.com/2018/09/21/basic-rules-of-cassandra-data-modeling/">
+     				   Basic Rules of Data Modelling (Charmy Garg, Personal Blog - 2018)</a>
+     				<p/>
+     				<li>
+     				   <a href="https://opencredo.com/blogs/cassandra-data-modelling-patterns/">
+     				   Data Modelling Patterns (Alla Babkina, Open Credo - 2016)</a>
+     				<p/>
+            		<li>
+     				   <a href="http://highscalability.com/blog/2017/11/13/cassandra-nosql-data-model-design.html">
+     				   Cassandra Data Model Design (Ben Bromhead, Instaclustr - 2017)</a>
+     				<p/>
+            		<li>
+     				   <a href=" https://www.datastax.com/blog/2016/02/most-important-thing-know-cassandra-data-modeling-primary-key">
+     				   The most important part of data model is the primay key (Patrick McFadin, DataStax - 2016)</a>
+     				<p/>
+     				</ul>
+                </div>
+              </div>
+            </div>
           </div>
+          
+           <p/><br/>
+            <div class="row">
+            <div class="col-md-12" >
+              <div class="card mb-2 box-shadow">
+                <img class="card-img-top" src="pics/articles/articles-design-timeseries.png" style="height:200px;width:500px">
+                <div class="card-body" style="background-color:#F8F8F8">
+                  <p class="card-text">
+                    <b style="color:black">Focus on Timeseries Data Modelling with Cassandra</b>
+                   <p style="text-align:justify">Cassandra is a good fit for timeseries data. They got a schema, are partionned by
+                    source and requests are predictables (draw curves or aggregating over time) and last write throughput is high. Here
+                    are some feedbacks about users already implemented system in production. You should also have a look to dedicated solution like Kairos DB and newTS. 
+                    (cf <a href="misc-solutions.html">solutions</a>)
+                    <ul>
+                    <li>
+     				   <a href="https://academy.datastax.com/units/getting-started-time-series-data-modeling">Getting Started with Time Series Data Modeling
+     				   (DataStax Academy Team)</a>
+     				 <p/>
+     				 <p/>
+     				  <li>
+     				   <a href="https://thelastpickle.com/blog/2017/08/02/time-series-data-modeling-massive-scale.html">Cassandra Time Series Data Modeling For Massive Scale
+     				   (John Haddad, TheLastPickle - 2017)</a> 
+     				 <p/>
+     				  
+     				 <li>
+     				   <a href="https://www.datastax.com/blog/2015/12/advanced-time-series-data-modelling">Advanced Time Series Data Modelling
+     				   (Patrick Callaghan, Datastax - 2015)</a>
+     				 <p/>
+     				 <li>
+     				   <a href="https://codingquestion.blogspot.com/2016/06/data-modelling-in-cassandra-for-iot.html">Data Modelling in Cassandra for IOT 
+     				   (Hường Hana - 2016)</a>
+     				</ul>
+             </div>
+             </div>
+             </div>
         </div>
-      
-      
           
         </main>
       </div>
