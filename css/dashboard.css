@@ -15,13 +15,35 @@ a.menu1:hover
    font-weight	  :bold;
 }
 
+a.menu2:hover
+{
+   text-decoration:none;
+   color  		  :#AA0000;
+   font-weight	  :bold;
+}
+
+
+a.menu3:hover
+{
+   text-decoration:none;
+   color  		  :#00AA00;
+   font-weight	  :bold;
+}
+
+a.menu4:hover
+{
+   text-decoration:none;
+   color  		  :#AA00AA;
+   font-weight	  :bold;
+}
+
 /*
  * Sidebar
  */
 
 .sidebar {
   position: fixed;
-  top: 0;
+  top: 48px;
   bottom: 0;
   left: 0;
   z-index: 100; /* Behind the navbar */
@@ -30,13 +52,15 @@ a.menu1:hover
 }
 
 .sidebar-sticky {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 48px; /* Height of navbar */
-  height: calc(100vh - 48px);
-  padding-top: .5rem;
-  overflow-x: hidden;
-  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+	background-image: url("../pics/body-bg.png");
+  background-repeat: repeat;
+  position		: -webkit-sticky;
+  position		: sticky;
+  top			: 48px;
+  height		: calc(100vh - 48px);
+  padding-top	: .5rem;
+  overflow-x	: hidden;
+  overflow-y	: auto; /* Scrollable contents if viewport is shorter than content. */
 }
 
 .sidebar .nav-link {

@@ -8,19 +8,32 @@
     <link rel="icon" href="pics/awesome.png">
     <title>Awesome Cassandra</title>
 
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/dashboard.css"     rel="stylesheet" />
+    <link href="css/album.css"         rel="stylesheet" />
+   
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css"   		rel="stylesheet" />
-    <link href="css/dashboard.css"       		rel="stylesheet" />
-    <link href="css/album.css"           		rel="stylesheet" />
+    <link href="css/bootstrap.min.css" srel="stylesheet" />
+    <link href="css/dashboard.css"     rel="stylesheet" />
+    <link href="css/album.css"         rel="stylesheet" />
+    <link rel="stylesheet" 			   href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.3/gh-fork-ribbon.min.css" />
+  
   </head>
 
-  <body>
+  <body >
+   <a class="github-fork-ribbon" 
+      href="https://github.com/awesome-cassandra/awesome-cassandra.github.io" 
+   	  data-ribbon="Fork me on GitHub" 
+   	  title="Fork me on GitHub">Fork me on GitHub</a>
     <nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0">
-       <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">
+      <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="index.html">
         <img src="pics/awesome.svg" style="height:30px"/> Awesome Cassandra</a>
       <ul class="navbar-nav px-3">
-        <li>
-          <a class="nav-link" href="#">Home</a>
+        <li style="margin-right:120px">
+        <a href="https://twitter.com/clunven?ref_src=twsrc%5Etfw" 
+           class="twitter-follow-button"
+           data-show-count="false">Follow @clunven</a>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </li>
       </ul>
     </nav>
@@ -29,71 +42,71 @@
       <div class="row">
         <nav class="col-md-2 d-none d-md-block bg-light sidebar">
           <div class="sidebar-sticky">
-            
             <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted" 
                 style="border-bottom:1px solid #0000AA;padding-bottom:5px">
                <span style="color:#0000AA"><span data-feather="home"></span> &nbsp;REFERENCES</span>
             </h6>
             <ul class="nav flex-column">
               <li class="nav-item">
-                <a class="nav-link" href="index.html">
-                  <span data-feather="file-text"></span>
-                  Documentation
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="references-blogs.html">
-                  <span data-feather="rss"></span>
-                  Technical Blogs
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="references-tools.html">
+                <a class="nav-link  menu1" href="references-tools.html" ">
                   <span data-feather="tool"></span>
-                  Tools
+                  Tooling and Libraries
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="references-codes.html">
+                <a class="nav-link menu1" href="references-questions.html">
+                  <span data-feather="help-circle"></span>
+                  Questions and Forums
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link menu1" href="references-tutos.html">
+                  <span data-feather="pen-tool"></span>
+                  Tutorials and Learning
+                </a>
+              </li>
+           
+            <li class="nav-item">
+                <a class="nav-link menu1" href="references-codes.html">
                   <span data-feather="code"></span>
                   Sample Codes
                 </a>
               </li>
-            </ul>
+           </ul>
             
             <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted"
               style="border-bottom:1px solid #AA0000;padding-bottom:5px">
                <span style="color:#AA0000"><span data-feather="youtube"></span> &nbsp;MEDIAS</span>
             </h6>
             <ul class="nav flex-column mb-2">
-              <li class="nav-item">
-                <a class="nav-link" href="medias-forum.html">
-                  <span data-feather="message-square"></span>
-                  Forums &amp; Chats
+             <li class="nav-item">
+                <a class="nav-link menu2" href="medias-docs.html" style="font-weight:bold;color:#AA0000">
+                  <span data-feather="file-text" style="font-weight:bold;color:#AA0000"></span>
+                  Documentations
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="medias-tutos.html">
-                  <span data-feather="pen-tool"></span>
-                  MOOC &amp; Tutorials
+                <a class="nav-link menu2" href="medias-blogs.html">
+                  <span data-feather="rss"></span>
+                  Technical Blogs
                 </a>
               </li>
                <li class="nav-item">
-                <a class="nav-link" href="medias-books.html">
+                <a class="nav-link menu2" href="medias-books.html">
                   <span data-feather="book"></span>
                   Books
                 </a>
               </li>
                <li class="nav-item">
-                <a class="nav-link" href="medias-podcasts.html">
+                <a class="nav-link menu2" href="medias-podcasts.html">
                   <span data-feather="cast"></span>
                   Podcasts
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="medias-videos.html">
+                <a class="nav-link menu2" href="medias-videos.html">
                   <span data-feather="video"></span>
-                  Conferences Videos
+                  Videos Conferences
                 </a>
               </li>
               </ul>
@@ -104,18 +117,18 @@
             </h6>
             <ul class="nav flex-column mb-2">
                <li class="nav-item">
-                <a class="nav-link" href="articles-design.html">
+                <a class="nav-link menu3" href="articles-design.html">
                   <span data-feather="database"></span>
                   Design &amp; Data Model
                 </a>
               </li><li class="nav-item">
-                <a class="nav-link" href="articles-dev.html">
+                <a class="nav-link menu3" href="articles-dev.html">
                   <span data-feather="git-pull-request"></span>
                   Developments
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="articles-ops.html">
+                <a class="nav-link menu3" href="articles-ops.html">
                   <span data-feather="terminal"></span>
                   Operations &amp; Maintenance
                 </a>
@@ -127,15 +140,21 @@
             </h6>
             <ul class="nav flex-column">
               <li class="nav-item">
-                <a class="nav-link" href="misc-distributions.html" style="color:#AA00AA">
+                <a class="nav-link menu4" href="misc-distributions.html">
                   <span data-feather="package" ></span>
                   Distributions
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="misc-aggregator.html" style="color:#AA00AA">
+                <a class="nav-link menu4" href="misc-solutions.html">
+                  <span data-feather="layers" ></span>
+                 Solutions and Apps 
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link menu4" href="misc-aggregator.html" >
                   <span data-feather="external-link" ></span>
-                  Other Aggregators
+                  Extra Resources
                 </a>
               </li>
              </ul>
@@ -145,7 +164,7 @@
 		
         <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
           <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
-            <h1 class="h2">Medias &gt; Chats and Forums</h1>
+            <h1 class="h2"><span data-feather="file-text" style="height:40px"></span> References  &gt; Documentation</h1>
             <!--
             <div class="btn-toolbar mb-2 mb-md-0">
               <div class="btn-group mr-2">
@@ -165,64 +184,49 @@
           <div class="row">
             
             <div class="col-md-4" >
-              <a href="https://community.datastax.com/index.html">
+              <a href="https://cassandra.apache.org" target="_blank">
               <div class="card mb-4 box-shadow">
-                <img class="card-img-top" src="pics/chats/chat-community-datastax.png" style="height:200px;width:225">
+                <img class="card-img-top" 
+                     src="pics/ref-doc-homecassandra.png" style="height:200px;width:225">
                 <div class="card-body" style="background-color:#F8F8F8">
                   <p class="card-text">
-                    <b style="color:black">community.datastax.com</b>
-                   <p>Bringing together the Apache Cassandra experts from the community and DataStax.<br/>&nbsp;</p>
+                    <b style="color:black">Apache Cassandra Home</b>
+                   <p>The Apache Cassandra database is the right choice when you need scalability and high availability without compromising performance.</p>
                   <div class="d-flex justify-content-between align-items-center">
-                    <small class="text-muted">https://community.datastax.com/index.html</small>
+                    <small class="text-muted">https://cassandra.apache.org</small>
                   </div>
                 </div>
               </div>
               </a>
             </div>
             
-             <div class="col-md-4" >
-              <a href="https://stackoverflow.com/questions/tagged/cassandra">
+            
+            <div class="col-md-4" >
+              <a href="https://cassandra.apache.org/doc/latest/" target="_blank">
               <div class="card mb-4 box-shadow">
-                <img class="card-img-top" src="pics/chats/chat-stackoverflow.png" style="height:200px;width:225">
+                <img class="card-img-top" src="pics/ref-doc-cassandra.png" style="height:200px;width:225">
                 <div class="card-body" style="background-color:#F8F8F8">
                   <p class="card-text">
-                    <b style="color:black">Stack Overflow tagged [Cassandra]</b>
-                   <p>Cassandra is a highly scalable, eventually consistent, distributed, structured row/column store.</p>
+                    <b style="color:black">Apache Cassandra Documentation</b>
+                   <p>This is the official documentation of the Apache Cassandra project under heavy rewriting for Cassandra 4.0</p>
                   <div class="d-flex justify-content-between align-items-center">
-                    <small class="text-muted">https://stackoverflow.com/questions/tagged/cassandra</small>
+                    <small class="text-muted">https://cassandra.apache.org/doc/latest/</small>
                   </div>
                 </div>
               </div>
               </a>
             </div>
-            
-            <div class="col-md-4" >
-              <a href="https://www.quora.com/topic/Cassandra-database">
+           
+           <div class="col-md-4" >
+            <a href="https://cwiki.apache.org/confluence/display/CASSANDRA" target="_blank">
               <div class="card mb-4 box-shadow">
-                <img class="card-img-top" src="pics/chats/chat-quora.png" style="height:200px;width:225">
+                <img class="card-img-top" src="pics/ref-doc-wiki-apache.png" style="height:200px;width:225">
                 <div class="card-body" style="background-color:#F8F8F8">
                   <p class="card-text">
-                    <b style="color:black">Quora questions [Cassandra]</b>
-                   <p>Cassandra is a highly scalable, eventually consistent, distributed, structured row/column store.</p>
+                   <b style="color:black">Apache Cassandra Wiki</b>
+                   <p>Confluent Space for Cassandra. Development team can issue JIRA and discuss about incoming features</p>
                   <div class="d-flex justify-content-between align-items-center">
-                    <small class="text-muted">https://www.quora.com/topic/Cassandra-database</small>
-                  </div>
-                </div>
-              </div>
-              </a>
-            </div>
-            
-            
-            
-            <div class="col-md-4" >
-              <a href="https://www.mail-archive.com/user@cassandra.apache.org/">
-              <div class="card mb-4 box-shadow">
-                <img class="card-img-top" src="pics/logo-mailinglist.gif" style="height:200px;width:225">
-                <div class="card-body" style="background-color:#F8F8F8">
-                  <p class="card-text">
-                    <b style="color:black">Apache Cassandra User Mailing List</b>
-                   <div class="d-flex justify-content-between align-items-center">
-                    <small class="text-muted">https://www.mail-archive.com/user@cassandra.apache.org/</small>
+                    <small class="text-muted">https://cwiki.apache.org/confluence/display/CASSANDRA</small>
                   </div>
                 </div>
               </div>
@@ -230,14 +234,15 @@
             </div>
             
             <div class="col-md-4" >
-              <a href="https://www.mail-archive.com/dev@cassandra.apache.org/">
+            <a href="https://docs.datastax.com/en/landing_page/doc/landing_page/cassandra.html" target="_blank">
               <div class="card mb-4 box-shadow">
-                <img class="card-img-top" src="pics/logo-mailinglist.gif" style="height:200px;width:225">
+                <img class="card-img-top" src="pics/ref-doc-datastax-cassandra.png" style="height:200px;width:225">
                 <div class="card-body" style="background-color:#F8F8F8">
                   <p class="card-text">
-                    <b style="color:black">Apache Cassandra Developer Mailing List</b>
-                   <div class="d-flex justify-content-between align-items-center">
-                    <small class="text-muted">https://www.mail-archive.com/dev@cassandra.apache.org/</small>
+                   <b style="color:black">DataStax Apache Cassandra</b>
+                   <p>Documentation for Apache Cassandra™ open-source (OSS) documentation, and Cassandra documentations in DSE.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <small class="text-muted">https://docs.datastax.com/en/landing_page/doc/</small>
                   </div>
                 </div>
               </div>
@@ -245,14 +250,15 @@
             </div>
             
             <div class="col-md-4" >
-              <a href="https://www.mail-archive.com/commits@cassandra.apache.org/">
+            <a href="https://en.wikipedia.org/wiki/Apache_Cassandra" target="_blank">
               <div class="card mb-4 box-shadow">
-                <img class="card-img-top" src="pics/logo-mailinglist.gif" style="height:200px;width:225">
+                <img class="card-img-top" src="pics/ref-doc-wikipedia.png" style="height:200px;width:225">
                 <div class="card-body" style="background-color:#F8F8F8">
                   <p class="card-text">
-                    <b style="color:black">Apache Cassandra Commit Mailing List</b>
-                   <div class="d-flex justify-content-between align-items-center">
-                    <small class="text-muted">https://www.mail-archive.com/commits@cassandra.apache.org/</small>
+                   <b style="color:black">Wikipedia Apache Cassandra</b>
+                   <p>Overview and first information relative to the database. This is a good source for an high level overview</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <small class="text-muted">https://en.wikipedia.org/wiki/Apache_Cassandra</small>
                   </div>
                 </div>
               </div>
@@ -260,29 +266,15 @@
             </div>
             
             <div class="col-md-4" >
-              <a href="https://s.apache.org/slack-invite">
+            <a href="https://db-engines.com/en/system/Cassandra" target="_blank">
               <div class="card mb-4 box-shadow">
-                <img class="card-img-top" src="pics/logo-slack.png" style="height:200px;width:225">
+                <img class="card-img-top" src="pics/ref-doc-dbengines.png" style="height:200px;width:225">
                 <div class="card-body" style="background-color:#F8F8F8">
                   <p class="card-text">
-                    <b style="color:black">Apache Software Foundation Slack</b>
-                   <div class="d-flex justify-content-between align-items-center">
-                    <small class="text-muted">https://s.apache.org/slack-invite</small>
-                  </div>
-                </div>
-              </div>
-              </a>
-            </div>
-            
-            <div class="col-md-4" >
-              <a href=" https://cassandra-slack.herokuapp.com/">
-              <div class="card mb-4 box-shadow">
-                <img class="card-img-top" src="pics/logo-slack.png" style="height:200px;width:225">
-                <div class="card-body" style="background-color:#F8F8F8">
-                  <p class="card-text">
-                    <b style="color:black">Cassandra Slack</b>
-                   <div class="d-flex justify-content-between align-items-center">
-                    <small class="text-muted"> https://cassandra-slack.herokuapp.com/</small>
+                   <b style="color:black">DB-Engines for Cassandra</b>
+                   <p>Provide main characteristics of each database, a ranking but also allow comparisons with competitors or other solutions</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <small class="text-muted">https://db-engines.com/en/system/Cassandra</small>
                   </div>
                 </div>
               </div>
@@ -290,20 +282,12 @@
             </div>
             
           </div>
-        </div>
-      
-      
+        </div>s
           
         </main>
       </div>
     </div>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-    <script src="assets/js/vendor/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 
     <!-- Icons -->

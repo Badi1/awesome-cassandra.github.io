@@ -8,19 +8,32 @@
     <link rel="icon" href="pics/awesome.png">
     <title>Awesome Cassandra</title>
 
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/dashboard.css"     rel="stylesheet" />
+    <link href="css/album.css"         rel="stylesheet" />
+   
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css"   		rel="stylesheet" />
-    <link href="css/dashboard.css"       		rel="stylesheet" />
-    <link href="css/album.css"           		rel="stylesheet" />
+    <link href="css/bootstrap.min.css" srel="stylesheet" />
+    <link href="css/dashboard.css"     rel="stylesheet" />
+    <link href="css/album.css"         rel="stylesheet" />
+    <link rel="stylesheet" 			   href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.3/gh-fork-ribbon.min.css" />
+  
   </head>
 
-  <body>
+  <body >
+   <a class="github-fork-ribbon" 
+      href="https://github.com/awesome-cassandra/awesome-cassandra.github.io" 
+   	  data-ribbon="Fork me on GitHub" 
+   	  title="Fork me on GitHub">Fork me on GitHub</a>
     <nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0">
-       <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">
+      <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="index.html">
         <img src="pics/awesome.svg" style="height:30px"/> Awesome Cassandra</a>
       <ul class="navbar-nav px-3">
-        <li>
-          <a class="nav-link" href="#">Home</a>
+        <li style="margin-right:120px">
+        <a href="https://twitter.com/clunven?ref_src=twsrc%5Etfw" 
+           class="twitter-follow-button"
+           data-show-count="false">Follow @clunven</a>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </li>
       </ul>
     </nav>
@@ -29,71 +42,71 @@
       <div class="row">
         <nav class="col-md-2 d-none d-md-block bg-light sidebar">
           <div class="sidebar-sticky">
-            
             <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted" 
                 style="border-bottom:1px solid #0000AA;padding-bottom:5px">
                <span style="color:#0000AA"><span data-feather="home"></span> &nbsp;REFERENCES</span>
             </h6>
             <ul class="nav flex-column">
               <li class="nav-item">
-                <a class="nav-link" href="index.html">
-                  <span data-feather="file-text"></span>
-                  Documentation
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="references-blogs.html">
-                  <span data-feather="rss"></span>
-                  Technical Blogs
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="references-tools.html">
+                <a class="nav-link  menu1" href="references-tools.html">
                   <span data-feather="tool"></span>
-                  Tools
+                  Tooling and Libraries
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="references-codes.html">
+                <a class="nav-link menu1" href="references-questions.html">
+                  <span data-feather="help-circle"></span>
+                  Questions and Forums
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link menu1" href="references-tutos.html">
+                  <span data-feather="pen-tool"></span>
+                  Tutorials and Learning
+                </a>
+              </li>
+           
+            <li class="nav-item">
+                <a class="nav-link menu1" href="references-codes.html">
                   <span data-feather="code"></span>
                   Sample Codes
                 </a>
               </li>
-            </ul>
+           </ul>
             
             <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted"
               style="border-bottom:1px solid #AA0000;padding-bottom:5px">
                <span style="color:#AA0000"><span data-feather="youtube"></span> &nbsp;MEDIAS</span>
             </h6>
             <ul class="nav flex-column mb-2">
-              <li class="nav-item">
-                <a class="nav-link" href="medias-forum.html">
-                  <span data-feather="message-square"></span>
-                  Forums &amp; Chats
+             <li class="nav-item">
+                <a class="nav-link menu2" href="medias-docs.html" >
+                  <span data-feather="file-text"></span>
+                  Documentations
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="medias-tutos.html">
-                  <span data-feather="pen-tool"></span>
-                  MOOC &amp; Tutorials
+                <a class="nav-link menu2" href="medias-blogs.html">
+                  <span data-feather="rss"></span>
+                  Technical Blogs
                 </a>
               </li>
                <li class="nav-item">
-                <a class="nav-link" href="medias-books.html">
+                <a class="nav-link menu2" href="medias-books.html">
                   <span data-feather="book"></span>
                   Books
                 </a>
               </li>
                <li class="nav-item">
-                <a class="nav-link" href="medias-podcasts.html">
-                  <span data-feather="cast"></span>
+                <a class="nav-link menu2" href="medias-podcasts.html" style="font-weight:bold;color:#AA0000">
+                  <span data-feather="cast" style="font-weight:bold;color:#AA0000"></span>
                   Podcasts
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="medias-videos.html">
+                <a class="nav-link menu2" href="medias-videos.html">
                   <span data-feather="video"></span>
-                  Conferences Videos
+                  Videos Conferences
                 </a>
               </li>
               </ul>
@@ -104,18 +117,18 @@
             </h6>
             <ul class="nav flex-column mb-2">
                <li class="nav-item">
-                <a class="nav-link" href="articles-design.html">
+                <a class="nav-link menu3" href="articles-design.html">
                   <span data-feather="database"></span>
                   Design &amp; Data Model
                 </a>
               </li><li class="nav-item">
-                <a class="nav-link" href="articles-dev.html">
+                <a class="nav-link menu3" href="articles-dev.html">
                   <span data-feather="git-pull-request"></span>
                   Developments
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="articles-ops.html">
+                <a class="nav-link menu3" href="articles-ops.html">
                   <span data-feather="terminal"></span>
                   Operations &amp; Maintenance
                 </a>
@@ -127,15 +140,21 @@
             </h6>
             <ul class="nav flex-column">
               <li class="nav-item">
-                <a class="nav-link" href="misc-distributions.html" style="color:#AA00AA">
+                <a class="nav-link menu4" href="misc-distributions.html">
                   <span data-feather="package" ></span>
                   Distributions
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="misc-aggregator.html" style="color:#AA00AA">
+                <a class="nav-link menu4" href="misc-solutions.html">
+                  <span data-feather="layers" ></span>
+                 Solutions and Apps 
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link menu4" href="misc-aggregator.html" >
                   <span data-feather="external-link" ></span>
-                  Other Aggregators
+                  Extra Resources
                 </a>
               </li>
              </ul>
